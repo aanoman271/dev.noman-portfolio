@@ -29,6 +29,15 @@
   --color-accent-light: #0ea5e9;
   --color-accent-dim-light: #0284c7;
   --color-border-light: rgba(226, 232, 240, 0.8);
+  /* Dynamic Theme Mappings */
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-brighter: var(--surface-brighter);
+  --color-text: var(--text);
+  --color-text-dim: var(--text-dim);
+  --color-accent: var(--accent);
+  --color-accent-dim: var(--accent-dim);
+  --color-border: var(--border);
 }
 
 :root {

@@ -6,6 +6,13 @@ import { SiExpress, SiMongodb } from "react-icons/si";
 import { FiCpu } from "react-icons/fi";
 import { BiSolidZap, BiLogoTypescript } from "react-icons/bi";
 
+// Project Images
+import codearenaImg from "../assets/codearena.avif";
+import ecommerceImg from "../assets/Screenshot 2026-04-20 012818.jpg";
+import taskflowImg from "../assets/Screenshot 2026-04-20 015334.jpg";
+
+import resumeFile from "../assets/resume.pdf";
+
 export const portfolioData = {
   hero: {
     headline: "Abdullah   Al Noman",
@@ -20,7 +27,7 @@ export const portfolioData = {
     whatsapp: "+880 1748 1356 75",
     location: "Dhaka,Bangladesh",
     experience: "8 month of learning exprince",
-    resumeLink: "https://drive.google.com/file/d/1xRJPlWDdCDyhXrXR2edlY-rz7P9CN24D/view?usp=sharing",
+    resumeLink: resumeFile,
     socials: [
       {
         name: "github",
@@ -101,6 +108,7 @@ export const portfolioData = {
       id: "proj-1",
       title: "CodeAreana (Team project-as a frontend role)",
       shortDesc: "CodeArena – AI-Powered Competitive Coding & Interview Preparation Platform.",
+      image: codearenaImg,
       techStack: ["React ", "Nextjs", "Tailwind CSS", "docker", "shocket.io", "Framer Motion", "nodejs", "express", "mongoDb"],
       description: "AI-Powered Competitive Coding, Automated Evaluation, and Interview Preparation Platform .This project is a full-stack web-based platform where users can practice programming, participate in coding contests, receive automated evaluations, and prepare for technical interviews with the help of AI-powered feedback and analysis.",
       links: {
@@ -112,29 +120,31 @@ export const portfolioData = {
     },
     {
       id: "proj-2",
-      title: "E-Commerce OS",
-      shortDesc: "Operating system level experience for modern e-commerce brands.",
-      techStack: ["Next.js", "Shopify API", "Three.js"],
-      description: "Redefining how users interact with online stores using 3D product previews and ultra-fast navigation.",
+      title: "Loan Link",
+      shortDesc: "LoanLink – Microloan Request & Approval Tracker System",
+      image: ecommerceImg,
+      techStack: ["react ", "tailwind css", "nodejs ", "express", "mongoDb"],
+      description: "LoanLink is a web-based microloan request, review & approval management system.Many small financial organizations, NGOs, and microloan providers struggle to maintain loan applications, verification, approvals, EMI schedules, and repayments in one ",
       links: {
-        live: "#",
-        repo: "#",
+        live: "https://loan-link-7ead9.web.app/",
+        repo: "https://github.com/aanoman271/loan-Link",
       },
-      challenges: "Optimizing 3D models for mobile devices.",
-      futurePlans: "Augmented Reality (AR) try-on features.",
+      challenges: "When I worked on this project, I was still new to React and had only explored a few basic concepts. Because of that, I faced many errors while building the project. I had to spend a lot of time debugging issues related to components and state handling. Although it was challenging, this process helped me understand React more deeply and improved my problem-solving skills.",
+      futurePlans: "In the future, I plan to improve and polish this project further.",
     },
     {
       id: "proj-3",
-      title: "TaskFlow Pro",
-      shortDesc: "Minimalist task management for high-performance teams.",
-      techStack: ["React", "Zustand", "DnD Kit"],
+      title: "StudyMate",
+      shortDesc: "Find Perfect Study Partner Project Theme",
+      image: taskflowImg,
+      techStack: ["tailwind css", "MongoDB", "Express", "React", "Node.js"],
       description: "A productivity tool that stays out of your way. Focused on keyboard shortcuts and intuitive drag-and-drop logic.",
       links: {
-        live: "#",
-        repo: "#",
+        live: "https://study-mate-246e4.web.app/",
+        repo: "https://github.com/aanoman271/study-mate-client",
       },
-      challenges: "Maintaining a clean UI while supporting complex task dependencies.",
-      futurePlans: "AI-powered task prioritization.",
+      challenges: "#",
+      futurePlans: "#",
     },
   ],
 }

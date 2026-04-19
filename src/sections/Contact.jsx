@@ -60,9 +60,9 @@ const Contact = () => {
                 <span className="text-xl font-bold font-headline block truncate">{method.value}</span>
                 <a
                   href={method.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-4 px-6 py-2.5 bg-accent/10 border border-accent/20 rounded-full text-[10px] font-mono font-black text-accent uppercase tracking-widest hover:bg-accent hover:text-bg-dark transition-all"
+                  target={method.href.startsWith('http') ? "_blank" : "_self"}
+                  rel={method.href.startsWith('http') ? "noopener noreferrer" : ""}
+                  className="relative z-20 inline-flex items-center gap-2 mt-4 px-6 py-2.5 bg-accent/10 border border-accent/20 rounded-full text-[10px] font-mono font-black text-accent uppercase tracking-widest hover:bg-accent hover:text-bg-dark transition-all cursor-pointer"
                 >
                   Connect Now
                   <span className="material-symbols-outlined text-xs">arrow_outward</span>

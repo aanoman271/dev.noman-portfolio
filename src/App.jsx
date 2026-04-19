@@ -41,7 +41,7 @@ function App() {
         <Skills />
 
         {/* Evolution Timeline */}
-        <Timeline />
+        {/* <Timeline /> */}
 
         {/* Selected Projects */}
         <Projects />

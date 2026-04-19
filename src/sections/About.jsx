@@ -23,7 +23,7 @@ const AnimatedCodeEditor = () => {
           <div className="w-2 h-2 rounded-full bg-[#27c93f]" />
         </div>
         <div className="flex items-center gap-2">
-           <span className="text-text-dim/40 text-[8px] uppercase tracking-widest font-bold">alive.js</span>
+          <span className="text-text-dim/40 text-[8px] uppercase tracking-widest font-bold">alive.js</span>
         </div>
       </div>
       <div className="p-3 space-y-1 relative overflow-hidden">
@@ -62,7 +62,7 @@ const About = () => {
               className="flex items-center gap-4"
             >
               <div className="w-12 h-[1px] bg-accent" />
-              <span className="font-mono text-xs tracking-[.4em] text-accent uppercase font-bold">Biography</span>
+              <span className="font-mono text-xs tracking-[.4em] text-accent uppercase font-bold">About</span>
             </motion.div>
 
             <motion.h2
@@ -135,12 +135,12 @@ const About = () => {
           >
             <div className="flex flex-col gap-6 h-full justify-between">
               <div className="space-y-2">
-                <span className="text-3xl font-black text-accent font-headline">Constant Growth.</span>
+                {/* <span className="text-3xl font-black text-accent font-headline">Constant Growth.</span>
                 <p className="text-text-dim text-sm font-medium leading-relaxed">
                   Always pushing the boundaries. Obsessed with performance and fluid user experiences.
-                </p>
+                </p> */}
               </div>
-              
+
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}

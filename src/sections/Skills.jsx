@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-32 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto space-y-20">
-        
+
         {/* Section Header */}
         <div className="text-center space-y-4 max-w-2xl mx-auto">
           <motion.div
@@ -33,7 +33,7 @@ const Skills = () => {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-6xl font-black font-headline tracking-tighter uppercase"
           >
-            Technical <span className="text-transparent bg-clip-text bg-gradient-to-br from-accent to-accent-dim">Arsenal.</span>
+            Tech Stack  <span className="text-transparent bg-clip-text bg-gradient-to-br from-accent to-accent-dim">& Tools</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -42,8 +42,7 @@ const Skills = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-text-dim text-sm md:text-base leading-relaxed"
           >
-            Modular, scalable, and high-performance technologies tailored for cinematic digital experiences.
-          </motion.p>
+            The technologies I work with to design, develop, and deliver modern web experiences.          </motion.p>
         </div>
 
         {/* Categories Grid */}

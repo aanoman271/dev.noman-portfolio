@@ -67,6 +67,7 @@ const Hero = () => {
           >
             <a
               href={profile.resumeLink}
+              download="Abdullah_Al_Noman_Resume.pdf"
               className="w-full sm:w-auto px-10 py-5 bg-gradient-to-br from-accent to-accent-dim text-bg-dark font-black text-xs tracking-[0.2em] rounded-xl shadow-[0_10px_30px_-10px_rgba(83,221,252,0.5)] hover:shadow-[0_15px_40px_-10px_rgba(83,221,252,0.6)] hover:-translate-y-1 transition-all active:scale-95 uppercase"
             >
               Download Resume

@@ -12,7 +12,7 @@ const BentoCard = ({ children, className = "", title, icon, delay = 0 }) => {
     >
       {/* Background Icon Glow */}
       {icon && (
-        <span className="material-symbols-outlined absolute -top-4 -right-4 text-8xl opacity-[0.03] text-accent group-hover:opacity-[0.08] transition-opacity">
+        <span className="material-symbols-outlined absolute -top-4 -right-4 text-8xl opacity-[0.03] text-accent group-hover:opacity-[0.08] transition-opacity pointer-events-none">
           {icon}
         </span>
       )}

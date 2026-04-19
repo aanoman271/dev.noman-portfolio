@@ -19,7 +19,7 @@ const Navbar = ({ theme, toggleTheme }) => {
         <div className="flex items-center gap-2 cursor-pointer group">
           <span className="material-symbols-outlined text-accent group-hover:rotate-12 transition-transform">terminal</span>
           <span className="text-xl font-bold tracking-tighter font-headline uppercase group-hover:text-accent transition-colors">
-            PORTFOLIO
+            dev.NOMAN
           </span>
         </div>
 
