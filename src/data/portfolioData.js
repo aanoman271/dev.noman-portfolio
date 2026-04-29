@@ -11,7 +11,7 @@ import codearenaImg from "../assets/codearena.avif";
 import ecommerceImg from "../assets/Screenshot 2026-04-20 012818.jpg";
 import taskflowImg from "../assets/Screenshot 2026-04-20 015334.jpg";
 
-import resumeFile from "../assets/Resume (1).pdf";
+import resumeFile from "../assets/noman.dev-resume.pdf";
 
 export const portfolioData = {
   hero: {
