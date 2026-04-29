@@ -110,7 +110,9 @@ export const portfolioData = {
       shortDesc: "CodeArena – AI-Powered Competitive Coding & Interview Preparation Platform.",
       image: codearenaImg,
       techStack: ["React ", "Nextjs", "Tailwind CSS", "docker", "shocket.io", "Framer Motion", "nodejs", "express", "mongoDb"],
-      description: "AI-Powered Competitive Coding, Automated Evaluation, and Interview Preparation Platform .This project is a full-stack web-based platform where users can practice programming, participate in coding contests, receive automated evaluations, and prepare for technical interviews with the help of AI-powered feedback and analysis.",
+      description: `● Competitive programming platform where users solve coding problems and participate in contests.
+● Users can practice coding interviews and improve problem-solving skills through the CodeArena system.
+● Real-time leaderboard lets users track rankings, compare performance with others, and stay motivated to improve.  `,
       links: {
         live: "https://code-arena-team-project.vercel.app/",
         repo: "https://github.com/rabiulislam5334/CodeArena-TeamProject",
@@ -124,7 +126,9 @@ export const portfolioData = {
       shortDesc: "LoanLink – Microloan Request & Approval Tracker System",
       image: ecommerceImg,
       techStack: ["react ", "tailwind css", "nodejs ", "express", "mongoDb"],
-      description: "LoanLink is a web-based microloan request, review & approval management system.Many small financial organizations, NGOs, and microloan providers struggle to maintain loan applications, verification, approvals, EMI schedules, and repayments in one ",
+      description: `● Microloan management platform where managers post loan services and users can apply for loans.
+● Managers can review applications and approve or reject user requests.
+● Admin can manage user roles (Admin/Manager), suspend users, and remove loan posts.`,
       links: {
         live: "https://loan-link-7ead9.web.app/",
         repo: "https://github.com/aanoman271/loan-Link",
@@ -138,7 +142,9 @@ export const portfolioData = {
       shortDesc: "Find Perfect Study Partner Project Theme",
       image: taskflowImg,
       techStack: ["tailwind css", "MongoDB", "Express", "React", "Node.js"],
-      description: "A productivity tool that stays out of your way. Focused on keyboard shortcuts and intuitive drag-and-drop logic.",
+      description: `● Study Mate matching platform where users can post requests to find suitable study partners based on subjects and learning goals.
+● Users can browse available posts and connect with others for collaborative study sessions.
+● Simple role-based interaction system improves communication and makes finding study partners easier.`,
       links: {
         live: "https://study-mate-246e4.web.app/",
         repo: "https://github.com/aanoman271/study-mate-client",

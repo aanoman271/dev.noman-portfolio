@@ -98,7 +98,7 @@ const Projects = () => {
                                                     </span>
                                                 ))}
                                             </div>
-                                            <p className="text-text-dim text-lg leading-relaxed font-medium">
+                                            <p className="whitespace-pre-line text-text-dim text-lg leading-relaxed font-medium">
                                                 {selectedProject.description}
                                             </p>
 
